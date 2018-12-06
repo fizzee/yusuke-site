@@ -1,9 +1,15 @@
-main{
-    width: 100vw;
-    height: 100vh;
-    background-image: url("../img/img1.JPG");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+html,body,main{
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+}
+
+main.toppage{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../img/img1.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 
 }
