@@ -1,5 +1,6 @@
 html,body,main{
   background-color: #fff;
+  overflow: hidden;
   width: 100vw;
   height: 100vh;
   margin: 0;
@@ -7,11 +8,24 @@ html,body,main{
 }
 
 main.toppage{
+  background-color: #fff;
   width: 100vw;
-  height: 100vh;
+  height: 97vh;
   background-image: url("../img/img1.JPG");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
+}
+
+footer{
+  width: 100vw;
+  height: 97vh;
+  background-color: #000000;
+}
+
+a{
+  color: #fff;
+  position:absolute; 
+  right: 10px;
 }
