@@ -16,7 +16,23 @@ main.toppage{
   background-repeat: no-repeat;
   background-position: center;
   z-index: 1;
+  
 
+}
+.gradation{
+  width: 100vw;
+  height: 100%;
+  background: linear-gradient(45deg, rgba(180, 0, 255, 0.7), rgba(228, 211, 92, 0.7), rgba(255, 163, 108, 0.70));
+  background-size: 600% 600%;
+  animation: AnimationName 10s ease infinite;
+  position: absolute;
+  z-index: 2;
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 
 footer.toppage{
