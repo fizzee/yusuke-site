@@ -16,7 +16,7 @@ main.toppage{
   background-repeat: no-repeat;
   background-position: center;
   z-index: 1;
-
+  
 
 }
 .gradation{
@@ -270,16 +270,19 @@ a{
 	width: 3.6rem;
 	height: 3.6rem;
 	border-radius: 3.6rem;
+<<<<<<< HEAD
+=======
 	margin: -1.0rem;
 	position:absolute;
 	left :15px;
 	top :742px;
+>>>>>>> c576fb9c2ed7cdd11cfdc4436f027fbd5bdbce55
 }
 .twitter span {
 	background-color: #4099ff;
 }
 .facebook span {
-  background-color: #3B5998;
+	background-color: #3B5998;
 }
 
 /* Icons */
@@ -302,8 +305,7 @@ a{
 	color: #4099ff;
 }
 .icon-button .icon-facebook {
-  color: #3B5998;
-  margin-left: 20px;
+	color: #3B5998;
 }
 .icon-button:hover .icon-twitter,
 .icon-button:hover .icon-facebook {
