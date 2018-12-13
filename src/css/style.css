@@ -16,7 +16,7 @@ main.toppage{
   background-repeat: no-repeat;
   background-position: center;
   z-index: 1;
-  
+
 
 }
 .gradation{
@@ -276,7 +276,8 @@ a{
 	background-color: #4099ff;
 }
 .facebook span {
-	background-color: #3B5998;
+  background-color: #3B5998;
+  margin-left: 20px;
 }
 .google-plus span {
 	background-color: #db5a3c;
