@@ -65,6 +65,7 @@ a{
 .fizzeelogo{
   margin: 6px;
   margin-bottom: 3px;
+  z-index: 5;
 }
 
 .copyright{
@@ -74,7 +75,7 @@ a{
   position: absolute;
   bottom: 5%;
   right: 2%;
-  z-index: 2;
+  z-index: 5;
   text-align: center;
 }
 
@@ -135,6 +136,7 @@ a{
   visibility: hidden;
   transition: opacity .35s, visibility .35s, height .35s;
   overflow: hidden;
+  z-index: 10;
 }
 .overlay.open {
   opacity: .9;
@@ -270,13 +272,10 @@ a{
 	width: 3.6rem;
 	height: 3.6rem;
 	border-radius: 3.6rem;
-<<<<<<< HEAD
-=======
 	margin: -1.0rem;
 	position:absolute;
 	left :15px;
-	top :742px;
->>>>>>> c576fb9c2ed7cdd11cfdc4436f027fbd5bdbce55
+	top :24px;
 }
 .twitter span {
 	background-color: #4099ff;
@@ -294,7 +293,7 @@ a{
 	left: 0;
 	line-height: 3.6rem;
 	position: absolute;
-	top: 730px;
+	top: 12px;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-o-transition: all 0.3s;
