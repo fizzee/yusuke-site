@@ -74,7 +74,11 @@ a{
   width: 21px;
   height: 37px;
   position: absolute;
+<<<<<<< HEAD
   bottom: 5%;
+=======
+  bottom: 5%;    
+>>>>>>> 3a5f77708b6931252c11fcd76bd4bb7febcca216
   left: 155px;
   top: 17px;
   z-index: 2;
@@ -322,10 +326,13 @@ a{
 
 @media screen and (max-width: 480px) {
 
+<<<<<<< HEAD
   .icon-box{
     position: absolute;
     bottom: 0;
   }
+=======
+>>>>>>> 3a5f77708b6931252c11fcd76bd4bb7febcca216
   /* Wrapper */
   .icon-button {
     background-color: white;
@@ -353,6 +360,10 @@ a{
     left: 50%;
     margin: 0;
     position: absolute;
+<<<<<<< HEAD
+=======
+    top: 50%;
+>>>>>>> 3a5f77708b6931252c11fcd76bd4bb7febcca216
     -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
         -o-transition: all 0.3s;
@@ -365,9 +376,16 @@ a{
     background: none;
     color: white;
     height: 3.6rem;
+<<<<<<< HEAD
     line-height: 3.6rem;
     position: absolute;
     bottom: 0;
+=======
+    left: -28px;
+    line-height: 3.6rem;
+    position: absolute;
+    top: 616px;
+>>>>>>> 3a5f77708b6931252c11fcd76bd4bb7febcca216
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
@@ -383,4 +401,8 @@ a{
   }
 
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 3a5f77708b6931252c11fcd76bd4bb7febcca216
